@@ -1,7 +1,7 @@
 Utilisation du polymorphisme:
 Le polymorphisme fait référence à la capacité d'un objet à prendre différentes formes ou comportements en fonction du contexte. Cela permet à des objets de différentes classes d'être traités de manière uniforme s'ils implémentent la même interface ou héritent de la même classe de base. Dans le contexte de la programmation orientée objet, le polymorphisme peut être réalisé à travers l'héritage et les interfaces.
 
-Utilisation de l'encapsulation:
+Utilisation de l'[encapsulation](https://github.com/619yassine/POOPasswordGen/blob/main/methods/textMethods.py#L3):
 L'encapsulation est un concept clé de la programmation orientée objet qui consiste à regrouper des données et les méthodes qui les manipulent au sein d'une même entité, appelée classe. L'encapsulation permet de cacher les détails internes d'une classe et de fournir une interface publique pour interagir avec celle-ci. Cela garantit l'encapsulation des données et la protection contre les accès non autorisés.
 
 Utilisation de la composition:
