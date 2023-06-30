@@ -1,6 +1,6 @@
 import unicodedata
 
-class WorkOnStrings:
+class textMethods:
     
     @staticmethod
     def removeAccents( word: str):

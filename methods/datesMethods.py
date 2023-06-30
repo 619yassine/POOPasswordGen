@@ -1,6 +1,6 @@
-from textMethods import WorkOnStrings
+from textMethods import textMethods
 
-class WorkOnDates:
+class datesMethods:
     
     def convertDay(self, day):
         return [*set([str(day),"0" + str(day)])] if day<10 else [*set([str(day),str(day)])]
@@ -16,7 +16,7 @@ class WorkOnDates:
     
     def monthToLetter(self, month):
         result =''
-        workOnStrings =WorkOnStrings()
+        textMethods =textMethods()
         match month:
             case "01":
                 result= "janvier"
@@ -42,4 +42,4 @@ class WorkOnDates:
                 result= "novembre"
             case "12":
                 result ="decembre"
-        return workOnStrings.stringOptions(result)
+        return textMethods.stringOptions(result)

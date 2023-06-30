@@ -1,8 +1,8 @@
 from optionDate import OptionDate
 from optionWord import OptionWord
 from optionpersonal import PersonalInfo
-from textMethods import WorkOnStrings
-from datesMethods import WorkOnDates
+from textMethods import textMethods
+from datesMethods import datesMethods
 
 class Checker:
 
@@ -17,7 +17,7 @@ class Checker:
             options = []
 
             if self.optionWord.noAccent :
-                options.append(WorkOnStrings.removeAccents( word ))
+                options.append(textMethods.removeAccents( word ))
 
             if self.optionWord.allMin :
                 options.append( word.lower())
@@ -29,14 +29,14 @@ class Checker:
                 options.append( word.capitalize()) 
 
             if self.optionWord.leet :
-                options.extend(WorkOnStrings.leetOptions( self, word ))
+                options.extend(textMethods.leetOptions( self, word ))
             
             result.append(options)
         return result
 
     def getPossibleDates(self):
         result=[]
-        dates = WorkOnDates()
+        dates = datesMethods()
         for date in self.personalInfo.dateData:
             options=[]
             year, month, day = date.split("-")
