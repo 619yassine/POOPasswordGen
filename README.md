@@ -1,4 +1,4 @@
-Utilisation du polymorphisme:
+Utilisation du [polymorphisme](https://github.com/619yassine/POOPasswordGen/blob/main/methods/textMethods.py#L59):
 Le polymorphisme fait référence à la capacité d'un objet à prendre différentes formes ou comportements en fonction du contexte. Cela permet à des objets de différentes classes d'être traités de manière uniforme s'ils implémentent la même interface ou héritent de la même classe de base. Dans le contexte de la programmation orientée objet, le polymorphisme peut être réalisé à travers l'héritage et les interfaces.
 
 Utilisation de l'[encapsulation](https://github.com/619yassine/POOPasswordGen/blob/main/methods/textMethods.py#L3):
@@ -10,7 +10,7 @@ La composition est un concept de la programmation orientée objet qui permet de 
 Utilisation de l'[héritage](https://github.com/619yassine/POOPasswordGen/blob/main/methods/datesMethods.py#L3):
 L'héritage est un concept de la programmation orientée objet qui permet à une classe de hériter les caractéristiques (méthodes et attributs) d'une classe parente. La classe héritante, appelée sous-classe ou classe dérivée, peut ajouter de nouvelles fonctionnalités spécifiques ou modifier le comportement hérité de la classe parente, appelée superclasse ou classe de base. Cela favorise la réutilisation du code et la création d'une hiérarchie de classes.
 
-Utilisation d'interface:
+Utilisation d'[interface](https://github.com/619yassine/POOPasswordGen/blob/main/interface.py#L1):
 Une interface est un ensemble de méthodes abstraites définies dans une classe ou un contrat qui spécifie un ensemble de comportements attendus. Les classes qui implémentent cette interface doivent fournir une implémentation concrète de ces méthodes. L'utilisation d'interfaces permet de définir des comportements communs et de faciliter le polymorphisme en permettant à différentes classes d'implémenter la même interface.
 
 Utilisation de méthodes et attributs d'[objets](https://github.com/619yassine/POOPasswordGen/blob/main/methods/textMethods.py#L6):
