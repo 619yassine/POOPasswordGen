@@ -1,4 +1,3 @@
-from optionDate import OptionDate
 from optionWord import OptionWord
 from optionpersonal import PersonalInfo
 from textMethods import textMethods
@@ -6,10 +5,10 @@ from datesMethods import datesMethods
 
 class Checker:
 
-    def __init__(self, personalInfo:PersonalInfo, optionWord:OptionWord, optionDate:OptionDate):
+    def __init__(self, personalInfo:PersonalInfo, optionWord:OptionWord):
         self.personalInfo = personalInfo
         self.optionWord = optionWord
-        self.optionDate = optionDate
+        self.optionDate = datesMethods()
 
     def getPossibleStrings(self):
         result = []
