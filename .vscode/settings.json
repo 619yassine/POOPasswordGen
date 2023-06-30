@@ -1,0 +1,7 @@
+{
+    "python.analysis.extraPaths": [
+        "./options",
+        "./methods",
+        "./generator"
+    ]
+}

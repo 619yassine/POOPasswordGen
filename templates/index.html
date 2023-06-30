@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Password Guesser</title>
+    <link rel="stylesheet" href="./static/style.css" />
+  </head>
+  <body>
+    <h1>Password Guesser</h1>
+    <form action="render" method="GET">
+      <div class="form__fieldset">
+        <label for="date" class="form__label">Date (yyyy-mm-dd):</label>
+        <input type="text" name="date" id="date" class="form__input" />
+      </div>
+
+      <div class="form__fieldset">
+        <label for="mot" class="form__label">Mot:</label>
+        <input type="text" name="mot" id="mot" class="form__input" />
+      </div>
+
+      <!-- <div class="form__fieldset">
+        <label for="account" class="form__label">Options:</label>
+        <select name="account" id="account" class="form__input form__select">
+          <option value="Checking">Checking</option>
+          <option value="Savings">Savings</option>
+          <option value="Investment">Investment</option>
+        </select>
+      </div> -->
+      <fieldset class="form_field">
+        <legend>Options mots</legend>
+        <div>
+          <input type="checkbox" id="min" name="min">
+          <label for="min">Minuscule</label>
+        </div>
+        <div>
+          <input type="checkbox" id="maj" name="maj">
+          <label for="maj">Majuscule</label>
+        </div>
+        <div>
+          <input type="checkbox" id="fMaj" name="fMAj">
+          <label for="horns">Première lettre majuscule</label>
+        </div>
+        <div>
+          <input type="checkbox" id="accent" name="accent">
+          <label for="accent">Retirer les accents</label>
+        </div>
+        <div>
+          <input type="checkbox" id="leet" name="leet">
+          <label for="leet">Utiliser le leet code</label>
+        </div>
+      </fieldset>
+
+      <fieldset class="form_field">
+        <legend>Options dates</legend>
+        <div>
+          <input type="checkbox" id="comb" name="comb" checked>
+          <label for="comb">Séparer les informations des dates pour les combiner avec les mots </label>
+        </div>
+        <div>
+          <input type="checkbox" id="datenbr" name="datenbr">
+          <label for="datenbr">Utiliser les nombres des dates</label>
+        </div>
+        <div>
+          <input type="checkbox" id="monthword" name="monthword">
+          <label for="monthword">Transformer les dates en langage humain pour les mois</label>
+        </div>
+        <div>
+          <input type="checkbox" id="yeartwo" name="yeartwo">
+          <label for="yeartwo">Utiliser l'année sur 2 chiffres</label>
+        </div>
+        <div>
+          <input type="checkbox" id="yearfour" name="yearfour">
+          <label for="yearfour">Utiliser l'année sur 4 chiffres</label>
+        </div>
+        <div>
+          <input type="checkbox" id="frdate" name="frdate">
+          <label for="frdate">Ajouter la possibilité de choisir la langue utilisée pour récupérer les noms des jours / mois</label>
+        </div>
+      </fieldset>
+
+      <fieldset class="form_field">
+        <legend>Options caractères spéciaux</legend>
+        <div>
+          <input type="checkbox" id="specs" name="specs">
+          <label for="specs">Ajouter les caractères spéciaux les plus communs (.$?!*)</label>
+        </div>
+        <div>
+          <input type="checkbox" id="specsall" name="specsall">
+          <label for="specsall">Ajouter tous les caractères spéciaux</label>
+        </div>
+        <div>
+          <label for="frdate">Nombre de caractères spéciaux maximums dans la combinaison : </label>
+          <input type="number" id="frdate" name="frdate" value="0" min="0" max="99" style="width: 3em">
+        </div>
+      </fieldset>
+    
+
+      <div class="form__fieldset">
+        <input
+          class="form__submit form__input"
+          type="submit"
+          value="Générer"
+        />
+      </div>
+    </form>
+  </body>
+</html>
