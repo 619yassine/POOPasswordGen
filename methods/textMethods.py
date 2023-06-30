@@ -7,6 +7,7 @@ class textMethods:
         result = unicodedata.normalize('NFKD', word).encode('ASCII', 'ignore').decode()
         return result
     
+    @classmethod
     def leetOptions(self, word: str):
         result=[]
         stringOptionResult=[]

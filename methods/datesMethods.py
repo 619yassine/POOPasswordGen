@@ -1,6 +1,6 @@
 from textMethods import textMethods
 
-class datesMethods:
+class datesMethods(textMethods):
     
     def convertDay(self, day):
         return [*set([str(day),"0" + str(day)])] if day<10 else [*set([str(day),str(day)])]
