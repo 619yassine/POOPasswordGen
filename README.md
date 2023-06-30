@@ -4,7 +4,7 @@ Le polymorphisme fait référence à la capacité d'un objet à prendre différe
 Utilisation de l'[encapsulation](https://github.com/619yassine/POOPasswordGen/blob/main/methods/textMethods.py#L3):
 L'encapsulation est un concept clé de la programmation orientée objet qui consiste à regrouper des données et les méthodes qui les manipulent au sein d'une même entité, appelée classe. L'encapsulation permet de cacher les détails internes d'une classe et de fournir une interface publique pour interagir avec celle-ci. Cela garantit l'encapsulation des données et la protection contre les accès non autorisés.
 
-Utilisation de la composition:
+Utilisation de la [composition](https://github.com/619yassine/POOPasswordGen/blob/main/generator/getPossibilities.py#L11):
 La composition est un concept de la programmation orientée objet qui permet de créer des objets complexes en combinant plusieurs objets plus simples. Les objets composés sont formés par l'agrégation d'objets plus petits, créant ainsi une relation tout-en-un. Cela permet de créer des structures plus flexibles et modulaires.
 
 Utilisation de l'[héritage](https://github.com/619yassine/POOPasswordGen/blob/main/methods/datesMethods.py#L3):
