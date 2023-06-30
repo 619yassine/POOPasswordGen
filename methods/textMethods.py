@@ -55,3 +55,6 @@ class textMethods:
     
     def stringOptions(self, word: str):
         return [word.upper(),word.lower(), word.capitalize()]
+    
+    def printMessage(self):
+        print(textMethods.message)
